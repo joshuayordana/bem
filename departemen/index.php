@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Bidang 2</title>
-  <link rel='stylesheet' href='https://raw.githubusercontent.com/JohnBlazek/codepen-resources/master/3d-carousel/css/stylesheet.css'><link rel="stylesheet" href="./style.css">
+  <link rel='stylesheet' href='https://raw.githubusercontent.com/JohnBlazek/codepen-resources/master/3d-carousel/css/stylesheet.css'>
+  <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
