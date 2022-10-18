@@ -2,14 +2,14 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Departemen IS</title>
+  <title>Bidang 2</title>
   <link rel='stylesheet' href='https://raw.githubusercontent.com/JohnBlazek/codepen-resources/master/3d-carousel/css/stylesheet.css'><link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
 <header>
-		<h1>Departemen IS</h1>
+		<h1>Bidang 2</h1>
 		<!-- <h3>A pen by <a href="https://www.twitter.com/johnblazek" target="_blank">@johnblazek</a></h3>
 		<div id="fps">Framerate: 0/60 FPS</div> -->
 	</header>
@@ -17,7 +17,7 @@
 	<div id="contentContainer" class="trans3d"> 
 	<section id="carouselContainer" class="trans3d">
 		
-		<figure id="item1" class="carouselItem trans3d"><a href="http://google.com"><div class="carouselItemInner trans3d">1</div></a></figure>
+		<figure id="item1" class="carouselItem trans3d"><a href="http://google.com"><div class="trans3d"><img src="maro.jpg" alt="maro.jpg" style="max-width: 200px;"></div></a></figure>
 		<figure id="item2" class="carouselItem trans3d"><div class="carouselItemInner trans3d">2</div></figure>
 		<figure id="item3" class="carouselItem trans3d"><div class="carouselItemInner trans3d">3</div></figure>
 		<figure id="item4" class="carouselItem trans3d"><div class="carouselItemInner trans3d">4</div></figure>
