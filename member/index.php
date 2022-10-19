@@ -2,16 +2,16 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - 3D carousel</title>
+  <title>Member - IS Department</title>
   <!-- Latest compiled and minified CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
-  <span class="mt-5 mx-5" style="position: absolute;">
+  <!-- <span class="mt-5 mx-5" style="position: absolute;">
     <h1 class="text-white">Departemen IS</h1>
-  </span>
+  </span> -->
 
 <!-- partial:index.partial.html -->
 <div id="drag-container">
@@ -41,7 +41,7 @@
   <div id="ground"></div>
 </div>
 
-<!-- <div id="music-container"></div> -->
+<div id="music-container"></div>
 
 
 
