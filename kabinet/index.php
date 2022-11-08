@@ -17,15 +17,14 @@
                     <div class="bg"></div>
                     <div class="details">
                         <h1>BPH</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. 
-                        </p>
                         <a href="https://google.com"><button>Check Now</button></a>
                     </div>
 
-                    <div class="illustration"><div class="inner"></div></div>
+                    <div class="illustration">
+                        <div class="inner">
+                            <img src="./icil.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
                                 
                 
