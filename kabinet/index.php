@@ -22,7 +22,7 @@
 
                     <div class="illustration">
                         <div class="inner">
-                            <img src="./icil.jpg" alt="">
+                            <img src="./images/icil.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,11 @@
                         <a href="https://google.com"><button>Check Now</button></a>
                     </div>
 
-                    <div class="illustration"><div class="inner"></div></div>
+                    <div class="illustration">
+                        <div class="inner">
+                            <img src="./images/Bidang 2.png" alt="">
+                        </div>
+                    </div>
                 </div>
                                 
                 <div class="box5 box">
