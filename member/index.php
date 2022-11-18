@@ -17,13 +17,11 @@
 <div id="drag-container">
   <div id="spin-container">
     <!-- Add your images (or video) here -->
-    <img src="./maro.jpg" alt="">
-    <img src="https://images.pexels.com/photos/206395/pexels-photo-206395.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-    <img src="https://images.pexels.com/photos/1391498/pexels-photo-1391498.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-    <img src="https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-    <img src="https://images.pexels.com/photos/1758144/pexels-photo-1758144.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-    <img src="https://images.pexels.com/photos/1382734/pexels-photo-1382734.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-    <img src="https://images.pexels.com/photos/1462636/pexels-photo-1462636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+    <img src="./asset/fungsio1.png" alt="">
+    <img src="./asset/fungsio2.png" alt="">
+    <img src="./asset/fungsio3.png" alt="">
+    <img src="./asset/fungsio4.png" alt="">
+    <img src="./asset/fungsio5.png" alt="">
     
     <!-- Example image with link -->
     <!-- <a target="_blank" href="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg">
