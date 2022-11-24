@@ -1,3 +1,8 @@
+<?php
+  require "connect.php";
+  $departemen = "GFAB";
+?>
+
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -17,24 +22,25 @@
 <div id="drag-container">
   <div id="spin-container">
     <!-- Add your images (or video) here -->
-    <img src="./asset/fungsio1.png" alt="">
-    <img src="./asset/fungsio2.png" alt="">
-    <img src="./asset/fungsio3.png" alt="">
-    <img src="./asset/fungsio4.png" alt="">
-    <img src="./asset/fungsio5.png" alt="">
+    <?php
+      $sql = "SELECT * FROM fungsio WHERE departemen LIKE '$departemen'";
+      $result = $conn->query($sql);
+      
+      if ($result->num_rows > 0) {
+        // output data of each row
+        while($row = $result->fetch_assoc()) {
+          $formal = $row['foto_formal'];
+          $bebas = $row['foto_bebas'];
+          echo "<img src='./$formal' alt=''>";
+        }
+      } else {
+        echo "0 results";
+      }
+    ?>
     
-    <!-- Example image with link -->
-    <!-- <a target="_blank" href="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg">
-      <img src="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-    </a> -->
-
-    <!-- Example add video  -->
-    <!-- <video controls autoplay="autoplay" loop>
-      <source src="https://player.vimeo.com/external/322244668.sd.mp4?s=338c48ac2dfcb1d4c0689968b5baf94eee6ca0c1&profile_id=165&oauth2_token_id=57447761" type="video/mp4">
-    </video> -->
 
     <!-- Text at center of ground -->
-    <p>Departemen IS</p>
+    <!-- <p>Departemen IS</p> -->
   </div>
   <div id="ground"></div>
 </div>
