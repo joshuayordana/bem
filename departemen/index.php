@@ -18,7 +18,7 @@
 	<div id="contentContainer" class="trans3d"> 
 	<section id="carouselContainer" class="trans3d">
 		
-		<figure id="item1" class="carouselItem trans3d"><a href="http://google.com"><div class="trans3d"><img src="./asset/ir.png" alt="maro.jpg" style="max-width: 300px;"></div></a></figure>
+		<figure id="item1" class="carouselItem trans3d"><a href="http://google.com"><div class="trans3d"><img src="./asset/IR.jpg" style="max-width: 300px;"></div></a></figure>
 		<figure id="item2" class="carouselItem trans3d"><div class="carouselItemInner trans3d">2</div></figure>
 		<figure id="item3" class="carouselItem trans3d"><div class="carouselItemInner trans3d">3</div></figure>
 		<figure id="item4" class="carouselItem trans3d"><div class="carouselItemInner trans3d">4</div></figure>
